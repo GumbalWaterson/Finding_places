@@ -43,7 +43,7 @@ def geojson_map(datas):
                 "properties": {"Address": data['vicinity'],
                                 "name": data['name']}
                 } for data in datas if type(data) is dict]}
-    with open('bar.geojson', 'wt') as f:
+    with open('bar_map.geojson', 'wt') as f:
         json.dump(geojson_map, f, ensure_ascii=False, indent=4)
 
 

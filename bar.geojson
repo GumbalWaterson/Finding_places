@@ -5,10 +5,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    21.015256,
-                    105.8133656
-                ]
+                "coordinates": [21.015256, 105.8133656]
             },
             "properties": {
                 "Address": "Capital Garden Hotel, 4, Hoàng Ngọc Phách, Quận Đống Đa",
